@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glozzom</title>
+  
+    <style>
+      
+.carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius:50% !important;
+  background-color: red !important;
+}
+.carousel-indicators .active{
+    background-color: #fff !important;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+background-image: none;
+background-size: auto;
+  background-size: 100% 100%;
+ background-color: brown !important;
+}
+
+    </style>
+    
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/glo_style.css">
+    <link rel="shortcut icon" href="img/men.jpg" type="image/x-icon">
+    <!-- owl-caruosel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/owl.carousel.min.js"></script>
+    //scroll up 
+    <script src="js/jquery.tiltedpage-scroll.js"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-dark navbar-expand-md scrolled">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="" class="logo"></a>            <button class="navbar-toggler" data-toggle="collapse" data-target="#jubayer">
+                <span class="navbar-toggler-icon navbar-toggler-icon-right"></span>
+            </button>
+            <div id="jubayer" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+
+    <!--carousel slider-->
+    <section id="showcase" class="bg-dark">
+        <div class="carousel slide" data-ride="carousel" id="mycarousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#mycarousel" data-slide-to="0"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-img-1 active">
+                    <div class="carousel-caption pb-5 mb-5">
+                        <h2 class="display-4">Heading Number One</h2>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi distinctio voluptatum dolor est perferendis repellat itaque rem, voluptas totam quae.</p>
+                        <a href="#" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-2">
+                    <div class="carousel-caption pb-5 mb-5">
+                        <h2 class="display-4">Heading Number One</h2>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi distinctio voluptatum dolor est perferendis repellat itaque rem, voluptas totam quae.</p>
+                        <a href="#" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-3">
+                    <div class="carousel-caption pb-5 mb-5">
+                        <h2 class="display-4">Heading Number One</h2>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi distinctio voluptatum dolor est perferendis repellat itaque rem, voluptas totam quae.</p>
+                        <a href="#" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#mycarousel" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+            <a href="#mycarousel" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+        </div>
+    </section>
+    <!--icon-home-->
+    <section id="icon" class="bg-light py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 py-3">
+                    <i class="fa fa-gears"></i>
+                    <h2>Turning Gears</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam ab illum mollitia iste praesentium?</p>
+                </div> 
+                <div class="col-md-4 py-3">
+                    <i class="fa fa-cloud"></i>
+                    <h2>Turning Gears</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam ab illum mollitia iste praesentium?</p>
+                </div> 
+                <div class="col-md-4 py-3">
+                    <i class="fa fa-cart-plus"></i>
+                    <h2>Making money</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magnam ab illum mollitia iste praesentium?</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!--fixed background-->
+    <section id="bg-img" class="py-5 text-center text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="mb-4 border-bottom">Are You Ready To Get Started ?</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam dolore dolorum doloribus corporis adipisci nobis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, repellendus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--pc section-->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>JUBAUYER HOSSSAIN </h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis reiciendis consequatur dolorum repellendus placeat iusto ipsum est cum facilis Lorem ipsg elit. Beatae, laboriosam.</p>
+                    <a href="#" class="btn btn-outline-primary">Read More</a>
+                </div>
+                <div class="col-md-6">
+                     <img src="img/blzme.jpg" alt="" class="img-fluid rounded respon"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home vedio-->
+    <section id="home-vedio" class="text-center text-light py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div uk-lightbox>
+                       <a class="uk-button" href="https://youtu.be/6JQx2Sjel0U"><i class="fa fa-play text-danger"></i></a>
+                    </div>
+                    <h3>Bootsrap 5 Crash Course</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--photo gallery-->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 " uk-lightbox="animation:fade"> <a href="img/logo2.png"><img src="img/logo2.png"  class="img-fluid" alt=""></a></div>
+                <div class="col-md-4" uk-lightbox="animation:slide"> <a href="img/logo4.png"><img src="img/logo4.png" class="img-fluid" alt=""></a></div>
+                <div class="col-md-4" uk-lightbox="animation:slide"> <a href="img/mylogo.jpg"><img src="img/mylogo.jpg" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" uk-lightbox="animation:slide"> <a href="img/logo5.jpg"><img src="img/logo5.jpg"  class="img-fluid" alt=""></a></div>
+                <div class="col-md-4 my-sm-3 my-md-0 mb-md-5" uk-lightbox="animation:slide"> <a href=""><img src="img/new.jpg" class="img-fluid" alt=""></a></div>
+                <div class="col-md-4" uk-lightbox="animation:slide"> <a href="img/logo3.jpg"><img src="img/logo3.jpg" class="img-fluid" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!--contact part-->
+    <section id="form" class="bg-dark text-light text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Sign Up For Our Newslette </h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur amet qui at deleniti! Ullam possimus esse eos vel!</p>
+                    
+                        <input type="text" class="form-group  py-2 border-0 rounded" placeholder="enter name">
+                        <input type="text" class="form-group py-2 mx-2 rounded border-0" placeholder="enter name">
+                        <button class="btn btn-info py-2"> Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--foooter part-->
+    <footer class="background text-light text-center  pt-4" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0">copyright &copy; 2020 mizux</p>
+                    <p>Design by <a href="#" class="text-danger">jubayer</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/Glozzom.js"></script>
+    <script>
+        $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    </script>
+</body>
+</html>

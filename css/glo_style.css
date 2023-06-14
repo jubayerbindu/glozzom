@@ -1,0 +1,127 @@
+/* nav  */
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-color{
+    color: aqua;
+}
+    .nav-item{
+        padding-left: 2em ;
+        font-size: large;
+    }
+    .scrolled{
+        background-color: blue;
+        transition:background 1s;
+        
+    }
+   
+ /* carousel */
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background:url(../img/logo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-img-2{
+    background:url(../img/new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-img-3{
+    background:url(../img/logo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* icon */
+    .fa{
+        font-size: 50px;
+        color:blue
+    }
+    #bg-img{
+        height: 300px;
+        background-image: linear-gradient(to top,rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%),url(../img/slider2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    #home-vedio{
+        height: 200px;
+        background-image: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%),url(../img/slider4.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    #background{
+        height: 300px;
+       background-image: linear-gradient(to top,rgba(0,0,0,0.4)50%, rgba(0,0,0,0.4)50%),url(../img/slider2.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       
+}
+.fas,.fab{
+       font-size:50px;
+}
+.fa-phone,.fa-map-marker-alt,.fa-envelope{
+    font-size: 40px;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+.icon{
+    position: relative;
+}
+
+.con-text{
+    position: absolute;
+    top:5px;
+    right:60px;
+}
+.con-text2{
+    position: absolute;
+    top:5px;
+    right:1px;
+}
+.men img{
+    box-shadow: 5px 10px 8px 6px black;
+
+
+}
+
+@media(max-width:768px){
+    .nav-item{
+        padding-left:0 !important;
+
+    }
+
+}
+@media(max-width:576px){
+    .respon{
+        margin-top:20px;
+    }
+    .btn-info{
+        margin-right:335px;
+
+    }
+}
+@media(max-width:480px){
+    .carousel-caption
+        h2{
+            
+            font-size: 2.5rem;
+        }
+        
+    
+}
+ 
+
